@@ -1,0 +1,15 @@
+# https://mherman.org/blog/dockerizing-an-angular-app/
+version: '3.7'
+
+services:
+
+  example:
+    container_name: demo2
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '4201:4200'

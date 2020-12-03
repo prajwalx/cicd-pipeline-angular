@@ -1,5 +1,8 @@
 # Demo2
+![](https://github.com/prajwalx/cicd-pipeline-angular/workflows/Continuous%20Integration/badge.svg)
+![](https://github.com/prajwalx/cicd-pipeline-angular/workflows/Continuous%20Deployment/badge.svg)
 
+This project uses CI/CD pipeline to build, test and deploy Angular Application using github actions. 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
 
 ## Development server
@@ -24,4 +27,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page. https://morioh.com/p/d85dcfec40ce https://medium.com/astraol/deploying-a-dockerized-angular-app-with-github-actions-7e89fdb9c2e8

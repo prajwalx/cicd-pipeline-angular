@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+
+  example-prod:
+    container_name: demo2-prod
+    build:
+      context: .
+      dockerfile: prod.Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '80:80'
