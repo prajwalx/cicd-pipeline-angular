@@ -1,0 +1,43 @@
+.example-card {
+    max-width: 1085px;
+    margin: auto;
+    padding: 0;
+    /* background-color: #fafafa; */
+    background-color: white;
+    box-shadow: 0 8px 6px -6px #ececec;
+    margin-bottom: 2px;
+    /* border: solid purple; */
+    
+  }
+  .col-style{
+    border: solid 2.5px #ececec;
+    /* border-bottom: 0; */
+    padding: 1%;
+    position: relative;
+  }
+  /* mat-card-content{
+    padding: 1.5%;
+  } */
+  .example-form {
+    min-width: 150px;
+    font-size: 16px;
+    /* max-width: 500px; */
+    /* border: solid; */
+    width: 95%;
+    position: absolute;
+    bottom: 0%;
+    margin-bottom: -1.25em !important;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+  .frame{
+      /* border: solid green; */
+      position: fixed;
+      width: 100%;
+      bottom: 0%;
+      /* background-color: violet; */
+  }
+  

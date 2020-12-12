@@ -8,12 +8,14 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
 import { MessagesComponent } from './messages/messages.component';
+import { CreateMsgComponent } from './create-msg/create-msg.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    MessagesComponent
+    MessagesComponent,
+    CreateMsgComponent
   ],
   imports: [
     BrowserModule,

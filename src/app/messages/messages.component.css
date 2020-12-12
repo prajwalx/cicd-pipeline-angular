@@ -34,3 +34,7 @@
   /* mat-card-content{
     padding: 1.5%;
   } */
+  .frame{
+    /* Responsible for Spacing b/w footer and list */
+    padding-bottom: 150px;
+  }
